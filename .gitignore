@@ -1,0 +1,35 @@
+# ROS-specific files
+build/
+devel/
+dist/
+install/
+*.catkin_packages
+*.catkin_index
+
+# Generated files
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.pb.cc
+*.pb.h
+*.pb.hxx
+*.pb.pb.h
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+*.log
+*.DS_Store
+
+# IDE-specific files
+*.vscode/
+*.idea/
+*.xcodeproj
+*.xcworkspace
+
+
+# ignore mongodb driver source code
+mongo-cxx-driver-r3.10.1.tar.gz
+mongo-cxx-driver-r3.10.1
